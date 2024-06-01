@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "El Fuicioso",
+        "altura": "1.60m",
+        "habilidad": "Bailarin profesional en los transportes publicos",
+        "imagen": "static/images/fuicioso.jpg",
+        "frase_filosofica": "Todo bien, todo bonito"
+    },
+    {
+        "id": 2,
+        "nombre": "Hernan Dario",
+        "altura": "1.6m",
+        "habilidad": "Dar bolillo",
+        "imagen": "static/images/hermanitodebarravas.jpg",
+        "frase_filosofica": "Que paridera tan h**a"
+    },
+    {
+        "id": 3,
+        "nombre": "Le dieron ganas de llorar",
+        "altura": "1.65m",
+        "habilidad": "El hincha fiel de atletico nacional",
+        "imagen": "static/images/ledieronganasdellorar.jpg",
+        "frase_filosofica": "Horrible"
+    },
+    {
+        "id": 4,
+        "nombre": "Maluma",
+        "altura": "1.75m",
+        "habilidad": "Rapear",
+        "imagen": "static/images/maluma.jpg",
+        "frase_filosofica": "asdbhashjkdbahjdb pa pasarla bien"
+    },
+    {
+        "id": 5,
+        "nombre": "nosepai",
+        "altura": "1.7m",
+        "habilidad": "Se sabe la capital de bangladesh",
+        "imagen": "static/images/nosepai.jpg",
+        "frase_filosofica": "Estoy crochis porque tuki tuki muneco al alma"
+    },
+    {
+        "id": 6,
+        "nombre": "Rigo",
+        "altura": "1.7m",
+        "habilidad": "Hacer arepas",
+        "imagen": "static/images/rigo.jpg",
+        "frase_filosofica": "Yo que voy a saber gvon"
+    },
+    {
+        "id": 7,
+        "nombre": "Pinturita",
+        "altura": "1.35m",
+        "habilidad": "Criticar a fico",
+        "imagen": "static/images/pinturita.jpg",
+        "frase_filosofica": "Me voy para no pegarle, h**a"
+    },
+    {
+        "id": 8,
+        "nombre": "El Zarco",
+        "altura": "1.8m",
+        "habilidad": "*********",
+        "imagen": "static/images/zarco.png",
+        "frase_filosofica": "Como es que me dejo meter este ganso ciego ome"
+    }
+]

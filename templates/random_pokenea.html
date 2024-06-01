@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokenea Aleatorio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .random-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .random-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            padding: 20px;
+        }
+        .random-card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .random-card p {
+            margin: 10px 0;
+        }
+        .random-card .frase {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="random-container">
+        <div class="random-card">
+            <img src="{{ url_for('static', filename=pokenea['imagen'][7:]) }}" alt="{{ pokenea['nombre'] }}">
+            <p class="frase">"{{ pokenea['frase_filosofica'] }}"</p>
+        </div>
+    </div>
+</body>
+</html>
